@@ -1,0 +1,5 @@
+rootProject.name = 'PirckerDemoRN'
+
+include ':app'
+include ':react-native-multiple-image-picker'
+project(':react-native-multiple-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-multiple-image-picker/android')
